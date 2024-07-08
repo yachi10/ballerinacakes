@@ -1,0 +1,83 @@
+body {
+    background-color:indianred;
+    }
+    h1 {
+    font-size:60px;
+    text-shadow:2px 2px 5px  #ff1a1a;
+    color:aliceblue;
+    text-align: center;;
+    }
+    .img1 {
+    margin-left: 660px;;
+    }
+    .img2 {
+    width:800px;
+    }
+   
+    p {
+    font-size:50px; 
+    color:aliceblue;
+    text-shadow:2px 2px 5px   #cc0066;  
+    }
+
+    aside {
+    float:right;
+    padding-top:140px;
+    opacity:1;
+    }
+   
+    div.mycontainer {
+    width:100%;
+    overflow:auto;
+    padding-left:60px;
+    }
+
+    div.mycontainer div {
+    width:25%;  
+    float:left;
+    }
+
+    h3 {
+    font-size:30px; 
+    color:aliceblue;
+    text-shadow:2px 2px 5px  #cc0066;   
+    padding-left:30px; 
+    }
+
+    .img3 {
+        width:800px; 
+        float:right;
+        margin-right: 30px;
+        margin-top: 40px;
+    }
+
+ .bg {
+background-image: url("cakeshop%20images/5-11.jpg");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+    }
+    ul.breadcrumb {
+padding: 10px 16px;
+text-align:center;
+
+}
+ul.breadcrumb li {
+display: inline;
+font-size: 20px;
+}
+ul.breadcrumb li+li:before {
+padding: 8px;
+color: whitesmoke;
+content: "/\00a0";
+}
+ul.breadcrumb li a {
+color: white;
+text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+color: darkolivegreen;
+text-decoration: underline;
+}

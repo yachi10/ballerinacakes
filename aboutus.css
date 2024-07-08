@@ -1,0 +1,88 @@
+body {
+
+    background-color: cornflowerblue;
+    }
+    h1 {
+            font-size:50px;
+            text-shadow:2px 2px 5px #133da0;
+            color:aliceblue;
+            text-align: center;
+            }
+            .img1 {
+            margin-left: 300px;
+            }  
+    h4 {
+        font-size:50px;
+            text-shadow:2px 2px 5px #133da0;
+            color:aliceblue;
+            text-align: center;
+    }   
+            
+         .bg {
+    background-image: url("cakeshop%20images/cak.jpg");
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+            }
+            .bg1 {
+    background-color: rgb(214, 122, 196);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+            }
+    
+            h3 {
+            font-size:40px; 
+            color:aliceblue;
+            text-shadow:2px 2px 5px   #cc0066;  
+            margin-left: 300px;
+            }
+            p {
+            font-size:40px; 
+            color:aliceblue;
+            text-shadow:2px 2px 5px   #cc0066; 
+            
+            }
+    
+            aside {
+            float:right;
+            padding-top:110px;
+            opacity:1;
+            margin-left: 200px;
+            }
+    
+            .p1 {
+                font-size:30px; 
+            color:aliceblue;
+            margin-left: 100px;
+    
+            }
+            .img2 {
+                margin-left: 660px;
+            }
+            ul.breadcrumb {
+      padding: 10px 16px;
+     text-align:center;
+     
+    }
+    ul.breadcrumb li {
+      display: inline;
+      font-size: 20px;
+    }
+    ul.breadcrumb li+li:before {
+      padding: 8px;
+      color: whitesmoke;
+      content: "/\00a0";
+    }
+    ul.breadcrumb li a {
+      color: white;
+      text-decoration: none;
+    }
+    ul.breadcrumb li a:hover {
+      color: darkolivegreen;
+      text-decoration: underline;
+    }

@@ -1,0 +1,122 @@
+body {
+    background-color: #23aa91;
+    }
+    
+    h1 , h2 {
+    color:aliceblue;
+    font-size:40px;
+    text-shadow:2px 2px 5px #ff1a66 ;
+    text-align: center;
+    }
+    
+    
+    .img1 {
+    margin-left: 680px;
+    width:150px;
+    }
+    
+    h3  {
+    color:aliceblue;
+    font-size:35px;
+    margin-left: 100px;;
+    }
+    
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 30%;
+      padding: 5px;
+      margin-left:40px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    div.gallery {
+      border: 1px solid transparent;
+      border-radius: 16px;
+    }
+    
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+    
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+      font-size: 30px;;
+      color:aliceblue;
+    }
+    
+    div.desc1 {
+      padding: 15px;
+      text-align: center;
+      font-size:30px;
+      color:rgb(0, 0, 0);
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+    }
+    
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+    
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
+      }
+    }
+    
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    ul.breadcrumb {
+      padding: 10px 16px;
+     text-align:center;
+     
+    }
+    ul.breadcrumb li {
+      display: inline;
+      font-size: 20px;
+    }
+    ul.breadcrumb li+li:before {
+      padding: 8px;
+      color: whitesmoke;
+      content: "/\00a0";
+    }
+    ul.breadcrumb li a {
+      color: white;
+      text-decoration: none;
+    }
+    ul.breadcrumb li a:hover {
+      color: darkolivegreen;
+      text-decoration: underline;
+    }
